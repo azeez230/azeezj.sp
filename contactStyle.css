@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.main{
+width: 100%;
+background: linear-gradient(to top ,rgba(0, 0, 0, 0)50%, rgba(0, 0, 0, 0)50%), url(rm380-14\ copy.jpg);
+background-position: center;
+background-size: cover;
+height: 109vh;
+}
+
+
+.nbar{
+width: 1200px;
+height: 75px;
+margin: auto;
+
+
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.menu{
+    width: 950px;
+    height: 90px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 55px;
+    font-size: 14px;
+    position: relative;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #495E57;
+}
+
+.menu ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #F4CE14;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.menu ul li:hover:after{
+    width: 100%;
+}
+
+.search{
+    width: 330px;
+    margin-right: 100px;
+    margin-top: -55px;
+    float: right;
+}
+
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #F4CE14;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #F4CE14;
+    border: 2px solid #F4CE14;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;  
+}
+
+.btn :focus{
+    outline: none;
+}
+
+.srch :focus{
+    outline: none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    /* transform: translate(-30%); */
+text-align: left;
+padding-left: 10px;
+    
+    }
+    
+    .content .paragraph{
+        font-size: 30px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    }
+    
+    .content .h1{
+        font-family: 'Times New Roman';
+        font-size: 50px;
+        padding-left: 20px;
+        margin-top: 9%;
+        letter-spacing: 2px;
+    
+    }
+    
+    .content span{
+        color: #495E57;
+        font-size: 50px;
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
